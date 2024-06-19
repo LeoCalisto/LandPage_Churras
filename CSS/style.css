@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(to right,#F2B84B,#BF2604,#591202);
+    height: 150px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.267);
+}
+header #logo img{
+   width: 170px;
+   float: left;
+   position: relative;
+   bottom: 7px;
+   
+
+}
+header nav{
+    float: right;
+
+}
+header nav ul li{
+    list-style: none;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: #f2b84bd8;
+    float: right;
+    font-size: larger;
+}
+body{
+    background-color: #f2801d2d;
+}
