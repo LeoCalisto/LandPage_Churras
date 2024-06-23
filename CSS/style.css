@@ -63,11 +63,14 @@ body{
 .conteudo-sec{
     width: 260px;
     height: 520px;
-    margin: 0% 6.5%;
+    margin: 0% 10%;
     background-color: #bf26047e;
     border-radius: 20px;
     position: relative;
     float: left;
+}
+#sessao-2{
+    margin: 0%;
 }
 .imagens{
     width: 250px;
