@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheff Do Churras</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+    </style>
+</head>
+<body id="inscricao">
+    <header>
+        <div id="logo">
+            <img src="../IMG/logo-final.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../Index.html">Home</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a id="ctt" href="contato.html">Contato</a></li>
+                <li><a id="ins" href="#">Inscrição</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+    <main>
+        <form action="#">
+            <div class="dado">
+                <label for="inome">Nome:</label>
+                <input type="text" name="" id="inome">
+            </div>
+            <div class="dado">
+                <label for="iemail">Email:</label>
+                <input type="email" name="" id="iemail">
+            </div>
+            <div class="dado">
+                <label for="inumero">Telefone:</label>
+                <input type="tel" name="" id="inumero" maxlength="11" placeholder="(xx) xxxxx-xxxx">
+            </div>
+            <div class="dado">
+                <label for="icursos">Curso:</label>
+                <select name="cursos" id="icursos">
+                    <option value="cheff">-----</option>
+                    <option value="">Churrasqueiro Cheff</option>
+                    <option value="galera">Churrasqueiro Da Galera</option>
+                    <option value="casa">Churrasqueiro De Casa</option>
+                </select>
+            </div>
+            <div id="form-btn">
+                <input type="button" id="btn-form" value="Increver">
+            </div>   
+        </form>
+    </main>
+
+    <footer>
+        <P>Created by <em>Leonardo Alves</em></P>
+    </footer>
+</body>
+</html>

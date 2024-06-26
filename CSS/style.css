@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 /* topo - Header */
 header{
     background-image: linear-gradient(to right,#f2b84bab,#bf2604ec,#591202c9);
@@ -13,7 +14,7 @@ header #logo img{
    position: relative;
    float: left;
    left: 150px;
-   width: 400px;
+   width: 330px;
 }
 header nav{
     margin-top: 50px;
@@ -44,13 +45,13 @@ h3{
     width: 800px;
 }
 body{
-    background-image: url(../IMG/fundoo.png);
+    background-image: url(../IMG/fundo.png);
     background-color: #f2801d2d;
     width: 100%;
     height: 100%;
     font-family:"Playwrite GB S";
 }
-#home a#hm{
+#home a#hm, #contato a#ctt, #inscricao a#ins, #equipe a#eq{
     background-color: #59120233;
     border-radius: 10px;
 }
@@ -118,6 +119,96 @@ body{
 }
  /* rodapé  */
 footer{
-    height: 50px;
+    text-align: center;
+    height: 30px;
     background-color: #bf2604af;
+}
+footer em{
+    font-weight: bolder;
+}
+/* PAGINA CONTATO */
+body#contato  main form{
+    position: relative;
+    display: block;
+    width: 240px;
+    height: 250px;
+    background-color:  rgba(160, 81, 45, 0.747);
+    padding: 10px;
+    margin:0px auto;
+    top: 100px;
+}
+body#contato main form div{
+    margin: 5px 0;
+}
+body#contato textarea{
+    width: 230px;
+    height: 100px;
+}
+body#contato #btn-form{
+    display: block;
+    height: 35px;
+    width: 70px;
+    margin: 10px auto;
+}
+body#contato main{
+    height: 521px;
+}
+
+/* PAGINA INSCRIÇÃO */
+
+body#inscricao  main form{
+    position: relative;
+    display: block;
+    width: 240px;
+    height: 250px;
+    background-color: rgba(160, 81, 45, 0.747);
+    padding: 10px;
+    margin:0px auto;
+    top: 100px;
+}
+body#inscricao main form div{
+    margin: 20px 0;
+}
+body#inscricao #btn-form{
+    display: block;
+    height: 35px;
+    width: 70px;
+    margin: 10px auto;
+}
+body#inscricao main{
+    height: 521px;
+}
+body#inscricao input[type="tel"]{
+    width: 130px;
+}
+
+/* PAGINA EQUIPE */
+body#equipe main{
+    height: 501px;
+}
+body#equipe .foto{
+    width: 200px;
+    height: 140px;
+    border-radius: 5px 5px 0px 0px;
+}
+body#equipe section{
+    margin-top: 20px;
+}
+body#equipe section .conteiner{
+    margin: 0 auto;
+    width: 910px;
+}
+body#equipe .conteiner-pessoa{
+    display: inline-block;
+    width: 200px;
+    background-color: #bf26047e;
+    border-radius: 5px;
+    margin: 0px 50px;
+}
+body#equipe main section .teste{
+    margin-left: 150px;
+}
+
+body#equipe section div p, h5{
+    margin: 5px;
 }
