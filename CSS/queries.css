@@ -1,0 +1,96 @@
+@media screen and (max-width: 500px) {
+    header{
+        flex-direction: column;
+    }
+    header #logo img{
+        margin-left: 0%;
+    }
+    header #logo{
+        text-align: center;
+    }
+    header nav ul{
+        justify-content: center;
+        
+    }
+    header nav{
+        width: 100%;
+    }
+    li a{
+        padding: 7%;
+    }
+
+    /* body */
+
+    h3{
+        font-size: 1.2em;
+    }
+    #conteudo{
+        width: 100%;
+        height: 90%;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+    .conteudo-sec{
+        width: 95%;
+        height: 250px;
+        background-color: #bf260467;
+        border-radius: 15px;
+        margin: 2% auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 80% 20%;
+        box-sizing: content-box;
+        align-items: flex-start;
+    }
+    #sessao-2{
+        margin: 0% auto;
+    }
+    .imagens{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        margin: 2%;
+    }
+    #sessao-2 .conteiner-descrition, #sessao-3 .conteiner-descrition{
+        padding-bottom: 0%;
+    }
+    .conteiner-descrition{
+        width: 95%;
+        height: 100%;
+        border-radius: 10px;
+        background-color: #59120250;
+        margin: 2%;
+        padding: 5%;
+    }
+    .conteiner-descrition h4{
+        text-align: center;
+        font-size: 1.1em;
+    }
+    .conteiner-descrition h6{
+        font-size: 0.7em;
+        margin:5% 0%;
+    }
+    .conteiner-descrition ul li{
+        font-size: 0.7em;
+        list-style: inside;
+        line-height: 20px;
+    }
+    .btn-inscrever{
+        grid-column: 1/3;
+        font-size: 1em;
+        padding: 0.2% 0%;
+        width: 50%;
+        margin: 0% auto;
+        position: relative;
+        top: 12px;
+    }
+    .btn-inscrever:hover{
+        padding: 0.5% 1%;
+        transition: ease-in;
+        transition: 250ms;
+        background-color: #460f03;
+    }
+}
