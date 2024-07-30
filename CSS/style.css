@@ -23,16 +23,16 @@ header nav{
     margin: 1%;
 }
 header nav ul{
-    display: flex; 
+    display: flex;
+    justify-content: space-between;
 }
 header nav ul li{
     list-style: none;
-    margin: 0% 7%;
 }
 li a{
     text-decoration: none;
     color: #F2B84B;
-    font-size: 1em;
+    font-size: 90%;
     padding: 15%;
 }
 a:hover{
@@ -43,7 +43,7 @@ a:hover{
 h3{
     margin: 3% auto;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 150%;
     width: 70%;
 }
 body{
@@ -58,7 +58,6 @@ body{
 
 #conteudo{
     width: 100%;
-    height: 90%;
     margin: 2% auto;
     display: flex;
     justify-content: center;
@@ -96,19 +95,22 @@ body{
 }
 .conteiner-descrition h4{
     text-align: center;
-    font-size: 1.4em;
 }
 .conteiner-descrition h6{
-    font-size: 0.8em;
-    margin:1%;
+    margin:5% 1%;
 }
 .conteiner-descrition ul li{
-    font-size: 0.8em;
+    font-size: 70%;
     list-style: inside;
     line-height: 25px;
+   
+}
+.conteiner-bnt-inscrever{
+    width: 100%;
+    padding: 5%;
+    text-align: center;
 }
 .btn-inscrever{
-    text-align: center;
     background-color: #591202c7;
     border-radius: 6px;
     text-decoration: none;
