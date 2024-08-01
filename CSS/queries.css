@@ -101,4 +101,59 @@
         transition: 250ms;
         background-color: #460f03;
     }
+
+    /* EQUIPE */
+
+    body#equipe main{
+        display: flex;
+        justify-content: space-around;
+        height: 650px;
+    }
+
+    body#equipe .foto{
+        width: 200px;
+        height: 140px;
+        border-radius: 5px 5px 0px 0px;
+    }
+    
+    body#equipe section .conteiner{
+        margin: 0;
+        gap: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    body#equipe .conteiner-pessoa{
+        margin-top: 5%;
+        width: 200px;
+        background-color: #bf26047e;
+        border-radius: 5px;
+    }
+    body#equipe section div p{
+        text-wrap: nowrap;
+        font-size: 78%;
+    }
+
+    body#equipe section div p, h5{
+        margin: 5px;
+    }
+    
+    body#equipe footer{
+        position: initial;
+    }
+
+    /* PAGINA CONTATO */
+    
+    body#contato main{
+        height: 0;
+    }
+
+    /* PAGINA INSCRIÇÃO */
+    
+    body#inscricao main{
+        height: 0;
+    }
 }
+
+
+

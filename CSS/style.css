@@ -125,7 +125,7 @@ body{
     transition: 250ms;
     background-color: #460f03;
 }
- /* rodapé  */
+/* rodapé  */
 footer{
     text-align: center;
     height: 30px;
@@ -161,6 +161,11 @@ body#contato #btn-form{
 body#contato main{
     height: 521px;
 }
+body#contato footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 
 /* PAGINA INSCRIÇÃO */
 
@@ -189,34 +194,38 @@ body#inscricao main{
 body#inscricao input[type="tel"]{
     width: 130px;
 }
+body#inscricao footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 
 /* PAGINA EQUIPE */
-body#equipe main{
-    height: 501px;
-}
+
 body#equipe .foto{
     width: 200px;
     height: 140px;
     border-radius: 5px 5px 0px 0px;
 }
-body#equipe section{
-    margin-top: 20px;
-}
+
 body#equipe section .conteiner{
-    margin: 0 auto;
-    width: 910px;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
 }
 body#equipe .conteiner-pessoa{
-    display: inline-block;
     width: 200px;
     background-color: #bf26047e;
     border-radius: 5px;
-    margin: 0px 50px;
-}
-body#equipe main section .teste{
-    margin-left: 150px;
 }
 
 body#equipe section div p, h5{
     margin: 5px;
+}
+
+body#equipe footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
