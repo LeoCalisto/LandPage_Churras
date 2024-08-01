@@ -138,12 +138,13 @@ footer em{
 body#contato  main form{
     position: relative;
     display: block;
-    width: 240px;
+    width: 250px;
     height: 250px;
     background-color:  rgba(160, 81, 45, 0.747);
     padding: 10px;
     margin:0px auto;
     top: 100px;
+    border-radius: 8px;
 }
 body#contato main form div{
     margin: 5px 0;
@@ -157,6 +158,10 @@ body#contato #btn-form{
     height: 35px;
     width: 70px;
     margin: 10px auto;
+    background-color: #591202c7;
+    color: #F2B84B;
+    border: none;
+    border-radius: 2px;
 }
 body#contato main{
     height: 521px;
@@ -172,12 +177,13 @@ body#contato footer{
 body#inscricao  main form{
     position: relative;
     display: block;
-    width: 240px;
+    width: 250px;
     height: 250px;
     background-color: rgba(160, 81, 45, 0.747);
     padding: 10px;
     margin:0px auto;
     top: 100px;
+    border-radius: 8px;
 }
 body#inscricao main form div{
     margin: 20px 0;
@@ -187,6 +193,10 @@ body#inscricao #btn-form{
     height: 35px;
     width: 70px;
     margin: 10px auto;
+    background-color: #591202c7;
+    color: #F2B84B;
+    border: none;
+    border-radius: 2px;
 }
 body#inscricao main{
     height: 521px;

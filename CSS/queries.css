@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     header{
         flex-direction: column;
     }
@@ -70,14 +70,14 @@
     }
     .conteiner-descrition h4{
         text-align: center;
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .conteiner-descrition h6{
         font-size: 0.7em;
         margin:5% 0%;
     }
     .conteiner-descrition ul li{
-        font-size: 0.7em;
+        font-size: 0.63em;
         list-style: inside;
         line-height: 20px;
     }
@@ -107,7 +107,6 @@
     body#equipe main{
         display: flex;
         justify-content: space-around;
-        height: 650px;
     }
 
     body#equipe .foto{
@@ -139,7 +138,8 @@
     }
     
     body#equipe footer{
-        position: initial;
+        position: fixed;
+        bottom: 0;
     }
 
     /* PAGINA CONTATO */
